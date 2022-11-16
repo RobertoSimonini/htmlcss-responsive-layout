@@ -51,21 +51,6 @@ header {
     display: none;
 }
 
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 70%;
-    }
-
-    .navbar {
-        width: 75%;
-    }
-
-    .flex > .nav-infos {
-        display: flex;
-
-    }
-}
-
 /* Jumbotron */
 
 .jumbotron {
@@ -74,7 +59,7 @@ header {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .row .card {
@@ -90,7 +75,46 @@ header {
     min-height: 40rem;
 }
 
+
 /* Main -- Sections  */
 
 /* Footer */
+
+/* ********* Qui metto il Responsive degli schermi superiori a 992 px ********  */
+
+@media screen and (min-width: 577px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .row .card {
+        width: calc(100% / 3);
+        min-height: 15rem;
+        border: 1px solid green;
+    }
+
+    .row .big {
+        min-width: calc(100% - 33% - 2rem);
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .navbar {
+        width: 75%;
+    }
+
+    .flex > .nav-infos {
+        display: flex;
+    }
+
+}
 
