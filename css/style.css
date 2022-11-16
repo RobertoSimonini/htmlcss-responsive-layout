@@ -170,6 +170,7 @@ header {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+    margin-bottom: 2rem;
 }
 
 .as-footer {
@@ -236,6 +237,16 @@ header {
         margin: 0.5rem;
     }
 
+    /* Sezione dedicata alle info  */
+
+    .as-wrapper {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .as-left {
+        flex-basis: 60%;
+    }
 }   
 
     /* DESKTOP  */
