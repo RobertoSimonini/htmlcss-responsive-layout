@@ -42,6 +42,9 @@ section {
     background-color: #fff;
 }
 
+.bg-black {
+    background-color: #333333;
+}
 
 /* Header  */
 
@@ -184,8 +187,14 @@ header {
 
 /* Footer */
 
+footer {
+    min-height: 10rem;
+    color: #fff;
+}
 
-
+.footer-p {
+    padding: 2rem 1rem;
+}
 
 
 
