@@ -42,7 +42,6 @@ section {
 .j-card-pargraph {
     color: #6c6c6c;
     font-weight: bold;
-    line-height: 1.5rem;
     padding: 1rem 0;
 }
 
@@ -56,6 +55,10 @@ section {
 .icon-j-card {
     color: #0084FD;
     font-size: 5rem;
+}
+
+p {
+    line-height: 1.5rem;
 }
 
 /* colors  */
@@ -73,6 +76,10 @@ section {
 }
 
 /* Buttons  */
+
+button {
+    cursor: pointer;
+}
 
 .nav-btn {
     font-size: 18px;
@@ -185,10 +192,19 @@ header {
 
 .plan-img-wrapper {
     min-height: 25rem;
+    background-image: url(../img/planning1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
 }
 
 .txt {
-    min-height: 15rem;
+    color: #fff;
+}
+
+.txt h2 {
+    font-size: 2rem;
 }
 
 .plan-card {
@@ -347,7 +363,7 @@ footer {
     }
 
     .row .big {
-        height: 22.5rem;
+        height: 25rem;
     }
 
     .left-size-bcard {
