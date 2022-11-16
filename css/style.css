@@ -109,6 +109,10 @@ header {
     min-height: 75rem;
 }
 
+.about-us {
+    min-height: 75rem;
+}
+
 .planning * {
     margin: 2rem auto;
 }
@@ -152,6 +156,26 @@ header {
     border-radius: 2rem;
     margin: 1rem 0;
 }
+
+.as-title {
+    min-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.as-paragraph {
+    margin: 2rem 0;
+}
+
+.img-circle-wrapper {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.as-footer {
+    min-height: 15rem;
+}
+
 
 /* Footer */
 
