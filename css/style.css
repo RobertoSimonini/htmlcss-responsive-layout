@@ -28,15 +28,20 @@ section {
     padding: 2rem 0;
 }
 
+.border {
+    border: 2px dashed green;
+}
+
 /* colors  */
 
 .bg-purple {
     background-color: #9792E4;
 }
 
-.border {
-    border: 2px dashed green;
+.bg-white {
+    background-color: #fff;
 }
+
 
 /* Header  */
 
@@ -96,6 +101,10 @@ header {
     min-height: 75rem;
 }
 
+.testimonials {
+    min-height: 75rem;
+}
+
 .planning * {
     margin: 2rem auto;
 }
@@ -112,6 +121,16 @@ header {
     min-height: 40rem;
     border-radius: 2rem;
     background-color: #fff;
+}
+
+.rel-promo {
+    min-height: 15rem;
+}
+
+.testimonial-card {
+    min-height: 35rem;
+    margin: 2rem 0;
+    border-radius: 2rem;
 }
 
 /* Footer */
@@ -164,5 +183,18 @@ header {
         display: flex;
     }
 
+    /* Sezione dedicata ai planning  */
+
+    .wrapper {
+        display: flex;
+    }
+
+    .plan-left {
+        flex-basis: 40%;
+    }
+
+    .plan-card {
+        flex-basis: 40%;
+    }
 }
 
