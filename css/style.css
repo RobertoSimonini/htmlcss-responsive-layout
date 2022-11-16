@@ -144,6 +144,9 @@ header {
 
 /* ********* Qui metto il Responsive degli schermi superiori a 992 px ********  */
 
+
+/* TABLET  */
+
 @media screen and (min-width: 577px) {
     .container {
         max-width: 90%;
@@ -168,7 +171,14 @@ header {
         min-height: 50rem;
     }
 
-}
+    /* Sezione dedicata ai testimonials  */
+
+    .testimonial-card {
+        min-height: 15rem;
+    }
+}   
+
+    /* DESKTOP  */
 
 @media screen and (min-width: 992px) {
     .container {
