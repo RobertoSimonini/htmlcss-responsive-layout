@@ -34,6 +34,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    margin-bottom: 1rem;
 }
 
 .navbar {
@@ -46,7 +47,48 @@ header {
     height: 100%;
 }
 
+.flex > .nav-infos {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .navbar {
+        width: 75%;
+    }
+
+    .flex > .nav-infos {
+        display: flex;
+
+    }
+}
+
 /* Jumbotron */
+
+.jumbotron {
+    margin-top: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .card {
+    flex-basis: 100%;
+    background-color: #B5DDFF;
+    min-height: 10rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.row .big {
+    min-height: 40rem;
+}
 
 /* Main -- Sections  */
 
