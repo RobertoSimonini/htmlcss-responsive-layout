@@ -14,7 +14,7 @@
 }
 
 body {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 
@@ -47,7 +47,7 @@ section {
 
 header {
     background-color: #0084FD;
-    height: 3rem;
+    height: 5rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -111,6 +111,10 @@ header {
 
 .about-us {
     min-height: 75rem;
+}
+
+.platform-launch {
+    min-height: 50rem;
 }
 
 .planning * {
@@ -276,6 +280,11 @@ header {
 
     .plan-card {
         flex-basis: 40%;
+    }
+
+    /* Sezione dedicata all-as  */
+    .about-us {
+        min-height: 45rem;
     }
 }
 
