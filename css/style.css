@@ -53,6 +53,11 @@ section {
     left: 3rem;
 }
 
+.icon-j-card {
+    color: #0084FD;
+    font-size: 5rem;
+}
+
 /* colors  */
 
 .bg-purple {
@@ -143,10 +148,12 @@ header {
     padding: 2rem;
     margin: 1rem;
     position: relative;
+    text-align: center;
 }
 
 .row .big {
     min-height: 40rem;
+    text-align: left;
 }
 
 
