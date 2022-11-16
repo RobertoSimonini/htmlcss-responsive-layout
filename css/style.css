@@ -85,8 +85,9 @@ section {
     border: none;
     color: #fff;
     border-radius: 2rem;
-    padding: 8px 60px;
-    font-size: 20px;
+    padding: 10px 60px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
@@ -272,8 +273,11 @@ footer {
 
     .row .big {
         min-width: calc(100% - 33% - 2rem);
+        height: 35rem;
     
     }
+
+    
 
     /* Sezione dedicata ai planning  */
 
@@ -333,6 +337,19 @@ footer {
         display: flex;
         align-items: center;
         font-size: 18px;
+    }
+
+    .row .big {
+        height: 22.5rem;
+    }
+
+    .left-size-bcard {
+        width: 50%;
+    }
+
+    .img-j-wrapper img {
+        height: 15rem;
+        left: 25rem;
     }
 
     /* Sezione dedicata ai planning  */
