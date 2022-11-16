@@ -143,6 +143,12 @@ header {
         min-width: calc(100% - 33% - 2rem);
     }
 
+    /* Sezione dedicata ai planning  */
+
+    .plan-img-wrapper, .plan-card {
+        min-height: 50rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
