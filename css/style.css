@@ -24,6 +24,20 @@ body {
     display: flex;
 }
 
+section {
+    padding: 2rem 0;
+}
+
+/* colors  */
+
+.bg-purple {
+    background-color: #9792E4;
+}
+
+.border {
+    border: 2px dashed green;
+}
+
 /* Header  */
 
 header {
@@ -54,7 +68,7 @@ header {
 /* Jumbotron */
 
 .jumbotron {
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .row {
@@ -65,7 +79,7 @@ header {
 .row .card {
     flex-basis: 100%;
     background-color: #B5DDFF;
-    min-height: 10rem;
+    min-height: 20rem;
     border-radius: 2rem;
     padding: 1rem;
     margin: 1rem;
@@ -78,7 +92,36 @@ header {
 
 /* Main -- Sections  */
 
+.planning {
+    min-height: 75rem;
+}
+
+.planning * {
+    margin: 2rem auto;
+}
+
+.plan-img-wrapper {
+    min-height: 25rem;
+}
+
+.txt {
+    min-height: 15rem;
+}
+
+.plan-card {
+    min-height: 40rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
 /* Footer */
+
+
+
+
+
+
+
 
 /* ********* Qui metto il Responsive degli schermi superiori a 992 px ********  */
 
@@ -93,8 +136,7 @@ header {
 
     .row .card {
         width: calc(100% / 3);
-        min-height: 15rem;
-        border: 1px solid green;
+        min-height: 20rem;
     }
 
     .row .big {
@@ -105,11 +147,11 @@ header {
 
 @media screen and (min-width: 992px) {
     .container {
-        max-width: 70%;
+        width: 60%;
     }
 
     .navbar {
-        width: 75%;
+        width: 60%;
     }
 
     .flex > .nav-infos {
