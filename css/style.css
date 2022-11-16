@@ -15,6 +15,7 @@
 
 body {
     padding-top: 5rem;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -46,6 +47,19 @@ section {
     background-color: #333333;
 }
 
+/* Buttons  */
+
+.nav-btn {
+    font-size: 18px;
+}
+
+.white-btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 15px;
+}
+
 /* Header  */
 
 header {
@@ -71,6 +85,12 @@ header {
 
 .flex > .nav-infos {
     display: none;
+}
+
+.nav-rel a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
 }
 
 /* Jumbotron */
@@ -268,13 +288,18 @@ footer {
     .container {
         width: 60%;
     }
-
+   
     .navbar {
         width: 60%;
+    }
+    
+    .menu-icon {
+        display: none;
     }
 
     .flex > .nav-infos {
         display: flex;
+        align-items: center;
     }
 
     /* Sezione dedicata ai planning  */
