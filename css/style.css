@@ -8,12 +8,47 @@
 
 /* Generics  */
 
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    padding-top: 3rem;
+}
+
+
 /* Utils  */
 
+.flex {
+    display: flex;
+}
+
 /* Header  */
+
+header {
+    background-color: #0084FD;
+    height: 3rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
 
 /* Jumbotron */
 
 /* Main -- Sections  */
 
 /* Footer */
+
