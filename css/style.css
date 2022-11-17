@@ -83,6 +83,10 @@ p {
     color: #9792E4;
 }
 
+.orange {
+    color: #FDC15F;
+}
+
 /* Buttons  */
 
 button {
@@ -118,9 +122,22 @@ button {
     padding: 13px 50px;
     font-size: 15px;
     font-weight: bold;
-
 }
 
+.launch-btn {
+    color: #9792E4;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 70px;
+    margin: 2rem 0;
+}
+
+/* Pixels-FontSize  */ 
+
+.p-60 {
+    font-size: 60px;
+    padding-bottom: 1rem;
+}
 
 /* Header  */
 
@@ -186,23 +203,25 @@ header {
 /* Main -- Sections  */
 
 .planning {
-    min-height: 75rem;
+    /* min-height: 75rem; */
 }
 
 .testimonials {
-    min-height: 75rem;
+    /* min-height: 75rem; */
 }
 
 .benefits {
-    min-height: 75rem;
+    /* min-height: 75rem; */
 }
 
 .about-us {
-    min-height: 75rem;
+    /* min-height: 75rem; */
 }
 
 .platform-launch {
-    min-height: 50rem;
+    /* min-height: 50rem; */
+    color: #fff;
+    text-align: center;
 }
 
 /* PLANNING  */
@@ -258,7 +277,7 @@ header {
     text-align: center;
 }
 
-.intro-tstmnls {
+.intro {
     padding: 1rem 0;
 }
 
@@ -307,7 +326,7 @@ header {
 
 /* BENEFITS  */
 
-.ben-title {
+.ben-title, .plat-title {
     font-size: 21px;
     text-align: center;
     color: #fff;
@@ -373,6 +392,9 @@ header {
     padding: 10px;
     font-weight: normal;
 }
+
+/* PLATFORM LAUNCH  */
+
 
 /* Footer */
 
