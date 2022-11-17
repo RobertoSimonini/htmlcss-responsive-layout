@@ -26,7 +26,7 @@ body {
 }
 
 section {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .border {
@@ -223,7 +223,7 @@ header {
 }
 
 .plan-card {
-    min-height: 40rem;
+    /* min-height: 40rem; */
     border-radius: 2rem;
     background-color: #fff;
     color: #000;
@@ -240,6 +240,22 @@ header {
 
 .rel-promo {
     min-height: 15rem;
+    text-align: center;
+}
+
+.intro-tstmnls {
+    padding: 1rem 0;
+}
+
+.rel-promo h2 {
+    color: #9792E4;
+    font-size: 35px;
+    padding: 1rem 0;
+}
+
+.rel-promo p {
+    font-size: 20px;
+    line-height: 1.75rem;
 }
 
 .testimonial-card {
@@ -330,7 +346,7 @@ footer {
 
     /* Sezione dedicata ai planning  */
     .plan-img-wrapper, .plan-card {
-        min-height: 50rem;
+        /* min-height: 50rem; */
     }
 
     .txt h2 {
@@ -410,6 +426,14 @@ footer {
 
     /* Sezione dedicata ai planning  */
 
+    .plan-img-wrapper {
+        height: 750px;
+    }
+
+    .planning {
+        padding-top: 0;
+    }
+
     .wrapper {
         display: flex;
     }
@@ -420,6 +444,8 @@ footer {
 
     .plan-card {
         flex-basis: 40%;
+        height: 100%;
+        transform: translateY(450px);
     }
 
     /* Sezione dedicata all-as  */
