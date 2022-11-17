@@ -457,7 +457,17 @@ footer {
     /* Sezione dedicata ai testimonials  */
 
     .testimonial-card {
-        min-height: 15rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonials-right {
+        text-align: left;
+        transform: translateX(1rem);
+    }
+
+    .circular-image {
+        width: 100%;
     }
 
     /* Sezione dedicata ai benefits  */
