@@ -479,7 +479,7 @@ footer {
     }
 
     .row-6 .benefits-card {
-        flex-basis: calc(100% / 3 - 1rem);
+        flex-basis: calc(100% / 2 - 1rem);
         min-height: 20rem;
         border-radius: 2rem;
         margin: 0.5rem;
@@ -555,6 +555,16 @@ footer {
         transform: translateY(450px);
     }
 
+    /* Sezione deicata ai testimonials  */
+    .circular-image {
+        width: 320px;
+    }
+
+    /* Sezione dedicata ai benefits  */
+
+    .row-6 .benefits-card {
+        flex-basis: calc(100% / 3 - 1rem);
+    }
     /* Sezione dedicata all-as  */
     .about-us {
         min-height: 45rem;
