@@ -399,7 +399,8 @@ header {
 /* Footer */
 
 footer {
-    min-height: 10rem;
+    /* min-height: 10rem; */
+    text-align: center;
     color: #fff;
 }
 
@@ -407,8 +408,9 @@ footer {
     padding: 2rem 1rem;
 }
 
-
-
+.footer-p a {
+    color: #9792E4;
+}
 
 
 /* ********* Qui metto il Responsive degli schermi superiori a 992 px ********  */
