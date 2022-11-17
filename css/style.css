@@ -79,6 +79,10 @@ p {
     background-color: #333333;
 }
 
+.purple {
+    color: #9792E4;
+}
+
 /* Buttons  */
 
 button {
@@ -104,6 +108,17 @@ button {
     padding: 10px 60px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.btn-purple {
+    background-color: #9792E4;
+    border: none;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 13px 50px;
+    font-size: 15px;
+    font-weight: bold;
+
 }
 
 
@@ -248,7 +263,6 @@ header {
 }
 
 .rel-promo h2 {
-    color: #9792E4;
     font-size: 35px;
     padding: 1rem 0;
 }
@@ -294,7 +308,24 @@ header {
 /* BENEFITS  */
 
 .ben-title {
-    min-height: 5rem;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.b-number {
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+.b-specifics {
+    padding: 1rem 0;
+}
+
+.b-paragraph {
+    color: #6c6c6c;
+    padding: 1rem 0;
 }
 
 .row-6 {
@@ -307,11 +338,15 @@ header {
     min-height: 20rem;
     border-radius: 2rem;
     margin: 1rem 0;
+    padding: 2rem;
 }
 
+
+/* ABOUT US  */
+
 .as-title {
-    min-height: 5rem;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
+    font-size: 30px;
 }
 
 .as-paragraph {
@@ -323,12 +358,21 @@ header {
     width: 10rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.as-footer {
-    min-height: 15rem;
+.as-footer h2 {
+    font-size: 20px;
+    padding: 2rem 0;
 }
 
+.as-footer button {
+    padding: 10px;
+    font-weight: normal;
+}
 
 /* Footer */
 
